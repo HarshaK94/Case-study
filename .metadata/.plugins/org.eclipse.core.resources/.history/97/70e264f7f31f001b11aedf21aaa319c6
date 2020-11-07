@@ -1,0 +1,9 @@
+package com.oauth.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurer;
+
+@Configuration
+public class AuthorizationServerConfiguration implements AuthorizationServerConfigurer{
+
+}

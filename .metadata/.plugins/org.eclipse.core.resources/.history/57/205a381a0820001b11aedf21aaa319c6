@@ -1,0 +1,14 @@
+package com.product.services;
+
+import java.util.List;
+
+import com.shared.model.product.Product;
+
+public interface ProductService {
+
+	public void save(Product product);
+	
+	public List<Product> getAllProduct();
+	
+	public Product getProductById(Integer id);
+}

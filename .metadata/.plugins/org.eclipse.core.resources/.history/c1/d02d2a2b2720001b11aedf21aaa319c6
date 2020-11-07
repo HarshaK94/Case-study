@@ -1,0 +1,33 @@
+package com.shared.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="cart")
+public class Cart {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="cart_id")
+	private Integer cartId;
+	private String name;
+	public Integer getCartId() {
+		return cartId;
+	}
+	public void setCartId(Integer cartId) {
+		this.cartId = cartId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}
