@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: admin-service
+server:
+  port: 8762
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    instance-id: ${spring.application.name}-${server.port}

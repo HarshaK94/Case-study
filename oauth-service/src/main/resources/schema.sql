@@ -68,6 +68,22 @@ name varchar(255),
 product_id int(11) references product(product_id)
 
 );
+
+create table if not exists cart_order
+(
+ order_id int(11) auto_increment primary key,
+ cart_id int(11) references cart(cart_id),
+ order_date date,
+ user_id int(11) references user(id)
+);
+create table if not exists logged_in_user_info(
+info_id int(11) auto_increment primary key,
+username varchar(255),
+login_date_time timestamp ,
+is_login varchar(10),
+description varchar(255),
+ip_address varchar(20)
+);
 -- token store
 create table if not exists oauth_client_token (
   token_id VARCHAR(256),

@@ -7,6 +7,7 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
+          
   jpa:
     hibernate:
       naming:
@@ -15,10 +16,26 @@ spring:
       hibernate : 
         show_sql : true
         format_sql : true
-  application:
-    name: oauth-service
+#  application:
+#    name: oauth-service
 logging :
    level : 
     org :
        hibernate : 
           type : trace
+
+
+management:
+  auditevents:
+    enabled: true
+        
+security:
+    oauth2:
+      resource:
+        token-info-uri: http://localhost:8763/oauth/check_token
+      client:
+        client-id: mobile
+        client-secret: pin
+
+    
+  
