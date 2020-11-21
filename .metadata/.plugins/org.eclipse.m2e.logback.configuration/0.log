@@ -7148,3 +7148,106 @@ org.eclipse.core.runtime.CoreException: Can't read Maven project
 	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:740) ~[na:na]
 	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1074) ~[na:na]
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.300.v20190215-2048.jar:na]
+2020-11-19 18:02:06,942 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-19 18:02:09,566 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.audit:audit-service:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\audit-service\pom.xml.
+2020-11-19 18:02:09,988 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:10,160 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cart:cart-service:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\cart-service\pom.xml.
+2020-11-19 18:02:10,285 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:10,457 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:eureka-service:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\eureka-service\pom.xml.
+2020-11-19 18:02:10,941 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.notification:notification-service:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\notification-publisher\pom.xml.
+2020-11-19 18:02:11,129 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:11,379 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.oauth:oauth-service:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\oauth-service\pom.xml.
+2020-11-19 18:02:11,410 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:11,566 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.order:order-service:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\order-service\pom.xml.
+2020-11-19 18:02:11,598 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:11,738 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.product:product-service:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\product-service\pom.xml.
+2020-11-19 18:02:11,801 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:13,519 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: shared:com.shared:0.0.1-SNAPSHOT @ C:\Users\w2cluster511\Desktop\workspace-case-study\shared\pom.xml.
+2020-11-19 18:02:15,488 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /audit-service/src/main/java
+2020-11-19 18:02:15,488 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /audit-service/src/main/resources
+2020-11-19 18:02:15,488 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /audit-service/src/main/resources
+2020-11-19 18:02:15,488 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /audit-service/src/test/java
+2020-11-19 18:02:15,738 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cart-service/src/main/java
+2020-11-19 18:02:15,738 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cart-service/src/main/resources
+2020-11-19 18:02:15,738 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cart-service/src/main/resources
+2020-11-19 18:02:15,738 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cart-service/src/test/java
+2020-11-19 18:02:15,957 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-service/src/main/java
+2020-11-19 18:02:15,957 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-service/src/main/resources
+2020-11-19 18:02:15,957 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-service/src/main/resources
+2020-11-19 18:02:15,957 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-service/src/test/java
+2020-11-19 18:02:16,348 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notification-publisher/src/main/java
+2020-11-19 18:02:16,348 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notification-publisher/src/main/resources
+2020-11-19 18:02:16,363 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notification-publisher/src/main/resources
+2020-11-19 18:02:16,363 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notification-publisher/src/test/java
+2020-11-19 18:02:16,676 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /oauth-service/src/main/java
+2020-11-19 18:02:16,676 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /oauth-service/src/main/resources
+2020-11-19 18:02:16,676 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /oauth-service/src/main/resources
+2020-11-19 18:02:16,676 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /oauth-service/src/test/java
+2020-11-19 18:02:17,176 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2020-11-19 18:02:17,176 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2020-11-19 18:02:17,176 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2020-11-19 18:02:17,176 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2020-11-19 18:02:17,426 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2020-11-19 18:02:17,426 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2020-11-19 18:02:17,426 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2020-11-19 18:02:17,426 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2020-11-19 18:02:17,941 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /shared/src/main/java
+2020-11-19 18:02:17,941 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /shared/src/test/java
+2020-11-19 18:02:18,631 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2020-11-19 18:02:19,966 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:19,966 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:19,982 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 18:02:19,982 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:19,982 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\eureka-service\src\test\resources
+2020-11-19 18:02:20,886 [Worker-56: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:20,904 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:20,904 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:20,908 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 18:02:20,909 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:20,909 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\notification-publisher\src\test\resources
+2020-11-19 18:02:21,001 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:21,001 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\shared\src\main\resources
+2020-11-19 18:02:21,002 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:21,002 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\shared\src\test\resources
+2020-11-19 18:02:22,397 [Worker-56: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:22,459 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:22,459 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:22,459 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:22,490 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:22,490 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\product-service\src\test\resources
+2020-11-19 18:02:23,413 [Worker-56: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:23,428 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:23,428 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:23,428 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 18:02:23,428 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:23,428 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\order-service\src\test\resources
+2020-11-19 18:02:24,367 [Worker-56: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:24,367 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:24,367 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:24,367 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-11-19 18:02:24,383 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:24,383 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\oauth-service\src\test\resources
+2020-11-19 18:02:25,260 [Worker-56: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:25,275 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:25,275 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:25,291 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 18:02:25,291 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:25,291 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\cart-service\src\test\resources
+2020-11-19 18:02:26,221 [Worker-56: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:02:26,237 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:26,237 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:02:26,237 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 18:02:26,237 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:02:26,237 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\audit-service\src\test\resources
+2020-11-19 18:06:03,515 [Worker-60: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shared: shared:com.shared:0.0.1-SNAPSHOT with classifier  to /shared/target/classes
+2020-11-19 18:06:03,530 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:06:03,530 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 18:06:03,530 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 18:06:03,530 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 18:06:03,530 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster511\Desktop\workspace-case-study\notification-publisher\src\test\resources
+2020-11-20 10:44:17,568 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-11-21 10:04:00,122 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-21 10:04:58,694 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-21 10:04:59,946 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-11-21 10:05:18,932 [Worker-1: Launching Executing clean in C__Users_w2cluster511_Desktop_workspace-case-study_gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster511\Desktop\workspace-case-study\gateway
+2020-11-21 10:05:18,935 [Worker-1: Launching Executing clean in C__Users_w2cluster511_Desktop_workspace-case-study_gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean

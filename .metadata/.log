@@ -982,3 +982,509 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:276)
 	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:158)
 	... 12 more
+
+!ENTRY org.eclipse.equinox.security 1 0 2020-11-19 17:35:46.847
+!MESSAGE New keyring password generated. 
+!SESSION 2020-11-20 10:43:57.345 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-11-20 10:44:05.032
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2020-11-20 10:44:09.048
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-11-20 10:44:11.349
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-20 10:44:11.349
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ec92631,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76220ef1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:17.771
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:17.787
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1cada4b7[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:17.802
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:18.005
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-20 10:44:18.021
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\w2cluster511'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.466
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uqXhgaxH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.473
+!MESSAGE subscribing to classpath changes: sts4.classpath.uqXhgaxH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.481
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.504
+!MESSAGE subsribers = [sts4.classpath.uqXhgaxH]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.533
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.574
+!MESSAGE project gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.584
+!MESSAGE project gateway SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.611
+!MESSAGE project notification-publisher ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.624
+!MESSAGE Preparing classpath changed notification notification-publisher
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.633
+!MESSAGE project audit-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.644
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.651
+!MESSAGE project cart-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.658
+!MESSAGE project eureka-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.664
+!MESSAGE project oauth-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.673
+!MESSAGE project order-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.682
+!MESSAGE project product-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.690
+!MESSAGE project shared ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.713
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:22.738
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uqXhgaxH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.025
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.043
+!MESSAGE executing callback sts4.classpath.uqXhgaxH notification-publisher false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.247
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.259
+!MESSAGE Preparing classpath changed notification shared
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.266
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.289
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.304
+!MESSAGE executing callback sts4.classpath.uqXhgaxH shared false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.374
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.403
+!MESSAGE Preparing classpath changed notification product-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.426
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.493
+!MESSAGE classpath=215 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.504
+!MESSAGE executing callback sts4.classpath.uqXhgaxH product-service false 215
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.599
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.606
+!MESSAGE Preparing classpath changed notification order-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.616
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.674
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.694
+!MESSAGE executing callback sts4.classpath.uqXhgaxH order-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.753
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.762
+!MESSAGE Preparing classpath changed notification oauth-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.772
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.795
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.805
+!MESSAGE executing callback sts4.classpath.uqXhgaxH oauth-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.832
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.839
+!MESSAGE Preparing classpath changed notification eureka-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.847
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.868
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.876
+!MESSAGE executing callback sts4.classpath.uqXhgaxH eureka-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.915
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.921
+!MESSAGE Preparing classpath changed notification cart-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.928
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.944
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.955
+!MESSAGE executing callback sts4.classpath.uqXhgaxH cart-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.975
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.987
+!MESSAGE Preparing classpath changed notification audit-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:23.995
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:24.012
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:24.019
+!MESSAGE executing callback sts4.classpath.uqXhgaxH audit-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 10:44:24.042
+!MESSAGE executing callback sts4.classpath.uqXhgaxH SUCCESS [done]
+!SESSION 2020-11-21 10:02:54.672 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-11-21 10:03:14.125
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2020-11-21 10:03:26.344
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-11-21 10:03:35.044
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-21 10:03:35.044
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@539ee811,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1aa59698,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:00.903
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:00.934
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5f56ec2d[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:00.950
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-21 10:04:01.294
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\w2cluster511'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:01.403
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:10.870
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MAYHfAHF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:10.887
+!MESSAGE subscribing to classpath changes: sts4.classpath.MAYHfAHF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:10.904
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:10.925
+!MESSAGE subsribers = [sts4.classpath.MAYHfAHF]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:10.943
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:10.973
+!MESSAGE project gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:10.988
+!MESSAGE project gateway SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.014
+!MESSAGE project notification-publisher ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.032
+!MESSAGE project audit-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.051
+!MESSAGE Preparing classpath changed notification notification-publisher
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.069
+!MESSAGE project cart-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.085
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.100
+!MESSAGE project eureka-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.118
+!MESSAGE project oauth-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.138
+!MESSAGE project order-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.154
+!MESSAGE project product-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.167
+!MESSAGE project shared ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.184
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.200
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MAYHfAHF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.835
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:11.850
+!MESSAGE executing callback sts4.classpath.MAYHfAHF notification-publisher false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:12.466
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:12.485
+!MESSAGE Preparing classpath changed notification shared
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:12.499
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:12.522
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:12.540
+!MESSAGE executing callback sts4.classpath.MAYHfAHF shared false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:13.391
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:13.412
+!MESSAGE Preparing classpath changed notification product-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:13.511
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:13.568
+!MESSAGE classpath=215 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:13.580
+!MESSAGE executing callback sts4.classpath.MAYHfAHF product-service false 215
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.149
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.163
+!MESSAGE Preparing classpath changed notification order-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.175
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.207
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.219
+!MESSAGE executing callback sts4.classpath.MAYHfAHF order-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.263
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.276
+!MESSAGE Preparing classpath changed notification oauth-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.289
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.322
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.335
+!MESSAGE executing callback sts4.classpath.MAYHfAHF oauth-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.406
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.418
+!MESSAGE Preparing classpath changed notification eureka-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.431
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.467
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.489
+!MESSAGE executing callback sts4.classpath.MAYHfAHF eureka-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.585
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.598
+!MESSAGE Preparing classpath changed notification cart-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.614
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.645
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.657
+!MESSAGE executing callback sts4.classpath.MAYHfAHF cart-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.718
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.790
+!MESSAGE Preparing classpath changed notification audit-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.869
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.916
+!MESSAGE classpath=145 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:14.928
+!MESSAGE executing callback sts4.classpath.MAYHfAHF audit-service false 145
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-21 10:04:15.003
+!MESSAGE executing callback sts4.classpath.MAYHfAHF SUCCESS [done]
+
+!ENTRY org.eclipse.egit.core 4 0 2020-11-21 10:06:41.186
+!MESSAGE Pulling 1 repository
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2020-11-21 10:06:41.187
+!MESSAGE Checkout conflict with files: 
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.resources/1.snap
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen
+.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen
+.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+.metadata/version.ini
+shared/target/classes/META-INF/maven/shared/com.shared/pom.properties
+!STACK 0
+org.eclipse.jgit.api.errors.CheckoutConflictException: Checkout conflict with files: 
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.resources/1.snap
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen
+.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen
+.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+.metadata/version.ini
+shared/target/classes/META-INF/maven/shared/com.shared/pom.properties
+	at org.eclipse.jgit.api.MergeCommand.call(MergeCommand.java:437)
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:354)
+	at org.eclipse.egit.core.op.PullOperation$PullJob.run(PullOperation.java:256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.CheckoutConflictException: Checkout conflict with files: 
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.resources/1.snap
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen
+.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen
+.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+.metadata/version.ini
+shared/target/classes/META-INF/maven/shared/com.shared/pom.properties
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:518)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:486)
+	at org.eclipse.jgit.api.MergeCommand.call(MergeCommand.java:304)
+	... 3 more
