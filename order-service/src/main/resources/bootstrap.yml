@@ -1,5 +1,12 @@
+server:
+  port: 8766
 
+spring:
+   application:
+       name: order-service
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: ${spring.application.name}-${server.port}

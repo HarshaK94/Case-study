@@ -1,8 +1,0 @@
-package com.cart.service;
-
-import com.shared.model.Cart;
-
-public interface CartService {
-
-	public Cart saveCart(Cart cart);
-}

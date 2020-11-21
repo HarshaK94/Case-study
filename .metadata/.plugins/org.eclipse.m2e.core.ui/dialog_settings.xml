@@ -73,6 +73,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\w2cluster511\Desktop\workspace-case-study\notification-consumer-service"/>
 			<item value="G:\Harsha-workspace\Case-study\audit-service"/>
 		</list>
 		<list key="projectNameTemplate">

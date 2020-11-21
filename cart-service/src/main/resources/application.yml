@@ -1,6 +1,4 @@
-server:
-  port: 8761
-  servlet:
+servlet:
     session:
       cookie:
         name: KSESSION
@@ -19,8 +17,7 @@ spring:
       hibernate : 
         show_sql : true
         format_sql : true
-  application:
-    name: cart-service
+  
 security:
     oauth2:
       resource:

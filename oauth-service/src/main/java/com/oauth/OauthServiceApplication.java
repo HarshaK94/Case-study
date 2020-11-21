@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
@@ -22,7 +24,8 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @EntityScan(basePackages= {"com.shared.model","com.oauth.model"})
 @RestController
-
+@EnableEurekaClient
+@EnableDiscoveryClient
 public class OauthServiceApplication {
 
 	public static void main(String[] args) {

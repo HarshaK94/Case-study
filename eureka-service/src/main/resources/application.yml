@@ -1,8 +1,9 @@
 server:
-  port: 8760
-  
+  port: 8761
+
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-
+  instance:
+    instance-id: ${spring.application.name}-${server.port}
