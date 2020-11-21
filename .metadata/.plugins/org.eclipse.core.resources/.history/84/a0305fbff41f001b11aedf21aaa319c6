@@ -1,5 +1,0 @@
-package com.oauth.repository;
-
-public class UserDetailRepository extends JpaRepository<User, Integer>{
-
-}

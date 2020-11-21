@@ -1,0 +1,11 @@
+server:
+  port: 8763
+spring:
+     application:
+        name: oauth-service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: ${spring.application.name}-${server.port}

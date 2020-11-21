@@ -1,5 +1,0 @@
-package com.oauth.config;
-
-public class WebSecurityConfiguration {
-
-}

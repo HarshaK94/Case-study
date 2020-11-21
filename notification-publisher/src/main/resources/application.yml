@@ -1,27 +1,24 @@
-server:
-  port: 8764
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/ecommusecase?createDatabaseIfNotExist=true
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    initialization-mode: always
-  jpa:
-    hibernate:
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    properties:
-      hibernate : 
-        show_sql : true
-        format_sql : true
-  application:
-    name: notification-service
-  jackson:
-    serialization:
-      fail-on-empty-beans: false
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/ecommusecase?createDatabaseIfNotExist=true
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    initialization-mode: always
+#  jpa:
+#    hibernate:
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    properties:
+#      hibernate : 
+#        show_sql : true
+#        format_sql : true
+  
+#  jackson:
+#    serialization:
+#      fail-on-empty-beans: false
   rabbitmq:
-    host: rabbitmq-master
+    host: localhost
     port: 5672
     username: guest
     password: guest
@@ -30,14 +27,21 @@ spring:
       bindings: 
           messageSourceChannel:
                     destination : caseStudys
+
+management:
+  endpoints:
+      web:
+        shutdown:
+            enabled=true
+          
          
           
-security:
-    oauth2:
-      resource:
-        token-info-uri: http://localhost:8763/oauth/check_token
-      client:
-        client-id: mobile
-        client-secret: pin
+#security:
+#    oauth2:
+#      resource:
+#        token-info-uri: http://localhost:8763/oauth/check_token
+#      client:
+#        client-id: mobile
+#        client-secret: pin
 
           
