@@ -38,7 +38,7 @@ public class OrderController {
 		HttpEntity<Product> productHttpEntity = new HttpEntity<Product>(httpHeaders);
 		ResponseEntity responseEntity =null;
 		try {
-		 responseEntity = restTemplate.exchange("http://localhost:8762/cart/cart?id="+order.getCartId(), HttpMethod.GET,productHttpEntity,Cart.class);
+		 responseEntity = restTemplate.exchange("http://localhost:8768/cart/cart?id="+order.getCartId(), HttpMethod.GET,productHttpEntity,Cart.class);
 		//model.addAttribute("students", responseEntity.getBody());
 		Cart cart = (Cart) responseEntity.getBody();
 		Integer cartId = cart.getCartId();

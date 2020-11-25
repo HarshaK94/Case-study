@@ -3,9 +3,9 @@ server:
 spring:
      application:
         name: oauth-service
-#eureka:
-#  client:
-#    register-with-eureka: true
-#    fetch-registry: true
-#  instance:
-#    instance-id: ${spring.application.name}-${server.port}
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: ${spring.application.name}-${server.port}

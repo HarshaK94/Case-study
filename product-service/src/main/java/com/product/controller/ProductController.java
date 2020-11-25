@@ -29,7 +29,7 @@ public class ProductController {
 	}
 	
 	@GetMapping(value = "/product",produces = MediaType.APPLICATION_JSON_VALUE)
-	//@PreAuthorize("hasAuthority('read_profile')")
+	@PreAuthorize("hasAuthority('read_profile')")
 	public Product getProductById(@RequestParam int id) {
 		System.out.println("############  "+id);
 		Product product= productService.getProductById(id);

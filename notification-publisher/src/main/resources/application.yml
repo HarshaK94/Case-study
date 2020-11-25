@@ -14,9 +14,9 @@ spring:
 #        show_sql : true
 #        format_sql : true
   
-#  jackson:
-#    serialization:
-#      fail-on-empty-beans: false
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
   rabbitmq:
     host: localhost
     port: 5672
@@ -36,12 +36,12 @@ management:
           
          
           
-#security:
-#    oauth2:
-#      resource:
-#        token-info-uri: http://localhost:8763/oauth/check_token
-#      client:
-#        client-id: mobile
-#        client-secret: pin
+security:
+    oauth2:
+      resource:
+        token-info-uri: http://localhost:8763/oauth/check_token
+      client:
+        client-id: mobile
+        client-secret: pin
 
           

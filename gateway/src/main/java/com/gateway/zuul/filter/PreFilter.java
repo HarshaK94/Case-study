@@ -1,5 +1,7 @@
 package com.gateway.zuul.filter;
 
+import java.util.UUID;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Component;
@@ -21,6 +23,10 @@ public class PreFilter extends ZuulFilter {
 		RequestContext context = RequestContext.getCurrentContext();
 		HttpServletRequest request = context.getRequest();
 			System.out.println("Pre filter Endpoints >>> "+request.getMethod()+" , "+request.getRequestURL());
+			if(request.getAttribute("AUTH_HEADER")==null) {
+				String sessionId = UUID.randomUUID().toString();
+				context.addZuulRequestHeader("AUTH_HEADER", sessionId);
+			}
 		return null;
 	}
 

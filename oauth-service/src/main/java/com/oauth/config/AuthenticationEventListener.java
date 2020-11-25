@@ -26,8 +26,7 @@ public class AuthenticationEventListener implements AuthenticationEventPublisher
 	@Override
 	public void publishAuthenticationSuccess(Authentication authentication) {
 		//here mobile is client id from oauth_client table
-	
-		if(!authentication.getName().equals("mobile")) {
+		if(authentication.getName()!=null&&!authentication.getName().equals("mobile")) {
 		LoggedInUserInfo info = new LoggedInUserInfo();
 		info.setUsername(authentication.getName());
 		info.setLogin("yes");

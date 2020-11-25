@@ -21,6 +21,7 @@ public class CartServiceImpl implements CartService{
 
 	@Override
 	public Cart getCartById(Integer id) {
+		System.out.println(" cart service >>> "+cartRepository.getOne(id));
 		return cartRepository.getOne(id);
 	}
 

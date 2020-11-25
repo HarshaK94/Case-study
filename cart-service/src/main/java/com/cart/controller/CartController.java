@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -57,7 +58,7 @@ public class CartController {
 		return responseEntity;
 	}
 	
-	@GetMapping(value ="/cart")
+	@GetMapping(value ="/cart",produces = MediaType.APPLICATION_JSON_VALUE)
 	public Cart getCartById(@RequestParam int id) {
 		return cartService.getCartById(id);
 	}

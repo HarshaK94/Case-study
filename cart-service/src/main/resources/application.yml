@@ -17,7 +17,9 @@ spring:
       hibernate : 
         show_sql : true
         format_sql : true
-  
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
 security:
     oauth2:
       resource:
