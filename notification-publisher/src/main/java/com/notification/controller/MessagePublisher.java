@@ -24,8 +24,6 @@ public class MessagePublisher {
 
 	@PostMapping(value = "/sendMessage",consumes = MediaType.APPLICATION_JSON_VALUE)
 	public String sendMessage(@RequestBody String payload) {
-		System.out.println("@@@@@@@@@@@@@@@@@@@@ ??? "+payload);
-		
 		  ObjectMapper obj = new ObjectMapper(); 
 		  obj.enableDefaultTyping(ObjectMapper.DefaultTyping.OBJECT_AND_NON_CONCRETE, JsonTypeInfo.As.PROPERTY);
 
